@@ -16,4 +16,5 @@ Javascript libary used in this project. [Create React App](https://github.com/fa
 #### Chart.js: 
 Javascript charting libarary. https://www.chartjs.org/
 
-#### Python (numpy, pandas): other backend data manipulation and analysis. 
+#### Python (numpy, pandas): 
+Other backend data manipulation and analysis. 
