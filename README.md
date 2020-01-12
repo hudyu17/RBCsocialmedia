@@ -4,16 +4,16 @@ This project was made at cuHacking 2020 in a team of 4. It displays our findings
 
 ## Main Technologies Used
 
-# Google Cloud Platform Natural Language API: 
+### Google Cloud Platform Natural Language API: 
 We used Google's pre-trained models to perform sentiment and entity analysis. Given more time, we would have liked to implement our own Machine Learning methods. https://cloud.google.com/natural-language/
 
-# Tweepy: 
+### Tweepy: 
 An easy-to-use Python library for accessing the Twitter API. https://www.tweepy.org/ 
 
-# React: 
+### React: 
 Javascript libary used in this project. [Create React App](https://github.com/facebook/create-react-app). 
 
-# Chart.js: 
+### Chart.js: 
 Javascript charting libarary. https://www.chartjs.org/
 
-Python (numpy, pandas): other backend data manipulation and analysis. 
+### Python (numpy, pandas): other backend data manipulation and analysis. 
