@@ -1,3 +1,7 @@
+## About 
+
+This project was made at cuHacking 2020. It displays our findings and results from analysing Twitter Sentiments. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
