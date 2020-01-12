@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 def helper_function(temp_tweet):
-  return requests.post("https://language.googleapis.com/v1/documents:analyzeSentiment?key=AIzaSyDYMU95w5n-nUujbjLq8JGD4iaO17lg9AU",
+  return requests.post("https://language.googleapis.com/v1/documents:analyzeSentiment?key=<API KEY HIDDEN>",
                             json = {"document":{"type":"PLAIN_TEXT","content": temp_tweet},"encodingType": "UTF8"})
 
 def parse_df(data, num):
