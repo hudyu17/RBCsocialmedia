@@ -9,7 +9,7 @@ function AboutPage(props){
         <div>
             <Hero title={props.title} />
             <Content>
-                We primarily used the technologies below to analyse sentiments from Tweets involving RBC.  
+                We primarily used the following technologies to analyse sentiments from Tweets involving RBC.  
             </Content>
             <Carousel />
         </div>

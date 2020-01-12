@@ -75,3 +75,15 @@ code {
   font-weight: bold;
   text-align: center;
 }
+
+.main-chart {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.grid-container {
+  padding: 50px;
+  text-align: center;
+}

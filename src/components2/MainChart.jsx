@@ -117,16 +117,13 @@ const MainChart = () => {
     }
   };
 
-  function r() {
-    console.log("ff");
-  }
 
   return (
-    <div className="main-chart">
+    <div className="main-chart font-weight-bolder">
       <Router>
         <Switch>
           <Route exact path="/">
-            <h2>Average Yearly Sentiment Score of the decade/</h2>
+            <h2>Average Annual Sentiment Score (2009 - 2020)</h2>
             <div className="container">
               <Bar
                 options={{
@@ -139,19 +136,23 @@ const MainChart = () => {
               />
               {state.map((time, timeId) => {
                 return (
-                  <Link to={`/${time.year}`}>
-                    <NavButton year={time.year}></NavButton>;
+                  
+                    <Link to={`/${time.year}`}>
+                    <NavButton id={'n'+time.year} year={time.year}></NavButton>
                   </Link>
+                  
                 );
               })}
             </div>
           </Route>
           {state.map((chart, chartID) => {
             return (
-              <Route path={`/${chart.year}`}>
+              <Route exact path={`/${chart.year}`}>
+                <Switch>
                 <div key={chartID}>
                   <Chart year={chart.year} link={chart.api}></Chart>
                 </div>
+                </Switch>
               </Route>
             );
           })}
