@@ -18,3 +18,10 @@ Javascript charting libarary. https://www.chartjs.org/
 
 #### Python (numpy, pandas): 
 Other backend data manipulation and analysis. 
+
+## Workflow
+- Grabbed tweets using tweepy and pandas 
+- Ran tweets through Google Cloud Platform's Natural Language API, producing sentiment scores associated with each tweet
+- Ran lowest-scoring tweets through the same API, performing entity analysis to identify most common consumer "pain points" e.g. many negative tweets from 2010 were associated with "PIN login system", indicating teething problems with initial implementation
+- Used chart.js to visualise sentiment scores
+- Built the front-end with React, hosted on heroku
